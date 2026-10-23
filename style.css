@@ -238,10 +238,6 @@ body {
 }
 
 @media screen and (max-width:500px) {
-    body {
-        font-size: 7px;
-    }
-
     .course-card {
         flex-basis: 40%;
     }
@@ -257,9 +253,10 @@ body {
 
 }
 
-@media screen and (max-width:400px) {
-    .course-card {
-        flex-basis: 50%;
+@media screen and (max-width:300px) {
+    body {
+        font-size: 7px;
     }
+
 
 }
