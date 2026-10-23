@@ -257,6 +257,8 @@ body {
     body {
         font-size: 7px;
     }
-
+    .course-card {
+        flex-basis: 40%;
+    }
 
 }
